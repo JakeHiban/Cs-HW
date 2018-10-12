@@ -3,7 +3,7 @@ public class recursivetwon {
 	
 	public static void main (String [] args){
 		
-		System.out.println(recPow(5));
+		System.out.println(recPow(30));
 		
 	}
 	
@@ -16,6 +16,10 @@ public class recursivetwon {
 		
 		if (n == 0){
 			return 1;
+		}
+		
+		if (n >= 30){
+			return 1073741824;
 		}
 		
 		else
